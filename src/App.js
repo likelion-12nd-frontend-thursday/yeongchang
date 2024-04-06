@@ -1,10 +1,6 @@
-import { Component } from "react";
+import Say from "./say";
 
-class App extends Component {
-  render() {
-    const name = 'react';
-    return <div className="react">{name}</div>;
-  }
-
-}
+const App = () => {
+  return <Say />
+};
 export default App;
